@@ -87,4 +87,27 @@ display: none;
 color: red;
 margin: 0px;
 }
+.computer_answer{
+  color:#0c4ae6;
+}
+body {
+  font-size: 1.2vw; 
+}
+
+h1 {
+  font-size: 3vw; 
+}
+
+#main_section,  #winner{
+  font-size: 1.5vw; 
+}
+h5,h2 {
+  font-size: 2vw; 
+}
+.answer-btn{
+  font-size: 1.3vw;  
+}
+#submit,#play,#playagain,#end,input[type="text"],#options{
+  font-size: 1.2vw;  
+}
 
