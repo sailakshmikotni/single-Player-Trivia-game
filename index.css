@@ -87,8 +87,10 @@ display: none;
 color: red;
 margin: 0px;
 }
+
 .computer_answer{
   color:#0c4ae6;
+  margin: 0px;
 }
 body {
   font-size: 1.2vw; 
