@@ -127,7 +127,7 @@ function displayques(questions, index) {
         setTimeout(() => {
             
             answer_verification(randomAnswer, data.correctAnswer, questions);
-        }, 5000); // Simulate a delay for the computer's answer
+        }, 3000); 
     }
     // if(turn==1){
     //     document.getElementById("computer_ans").style.display="none";
