@@ -38,7 +38,7 @@ start_btn.addEventListener("click", async function () {
 
     question_catg.style.display = "block";
 
-    main_sec.style.height = "60vh";
+    main_sec.style.height = "65vh";
     main_sec.style.width = "75vw";
     fetched_question[0].innerHTML = `<p>Loading questions...</p>`;
     playername[0].textContent = p1.value;
@@ -122,12 +122,12 @@ function displayques(questions, index) {
             console.log(`Computer selected: ${randomAnswer}`);
     
            
-            document.getElementById("computer_ans").innerHTML = `<p>The answer selected by the computer is ${randomAnswer}</p>`;
+            document.getElementById("computer_ans").innerHTML = `<p class="computer_answer">The answer selected by the computer is ${randomAnswer}</p>`;
             document.getElementById("computer_ans").style.display = "block";
         setTimeout(() => {
             
             answer_verification(randomAnswer, data.correctAnswer, questions);
-        }, 3000); // Simulate a delay for the computer's answer
+        }, 5000); // Simulate a delay for the computer's answer
     }
     // if(turn==1){
     //     document.getElementById("computer_ans").style.display="none";
