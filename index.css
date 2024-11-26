@@ -1,0 +1,90 @@
+body {
+  background-image: url('https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSIYhY_9XEDYOMNRBsMoGuuOgceXob50kaxV_PHjMO1MHaEqgclpNKnugmoF0vympTk-yZfvqv2a_1peaPCVjHIx7t15LQ_TX_kwE0i6jjWnN_6cGXNLlHEeuqdzQ/360fx360f');
+
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; 
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+h1{
+  color: rgb(223, 30, 30);
+}
+#main_section{
+  text-align: center;
+  border: 2px solid rgb(8, 10, 14);
+  background-color: white;
+  width: 35vw;
+  height:40vh ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+
+#submit,#play,#playagain,#end{
+  background-color:  #0c4ae6;
+  padding: 5px 18px;
+  border-radius: 50px;
+ color: rgb(254, 254, 254);
+  cursor: pointer;
+  font-family: "Patrick Hand", cursive;
+}
+#submit:hover,#play:hover,#playagain:hover,#playagain:hover,#end:hover{
+background-color:rgb(13, 13, 234);
+
+
+}
+
+
+#Category,#question_category,#score{
+display: none;
+}
+
+
+.endbutton,.win,.computer{
+display: none;
+
+}
+
+.answer-btn{
+padding: 7px;
+border-radius: 15px;
+cursor: pointer;
+font-family: "Patrick Hand", cursive;
+}
+.answer-btn:hover{
+background-color: #7f7f83;
+}
+#playagain{
+display: none;
+
+}
+
+
+
+#winner{
+color: rgb(39, 175, 29);
+margin: 0px;
+}
+
+
+#gameover{
+display: none;
+color: red;
+margin: 0px;
+}
+
